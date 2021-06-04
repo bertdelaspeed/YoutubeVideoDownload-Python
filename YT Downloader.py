@@ -4,7 +4,6 @@ from PIL import ImageTk, Image
 import pyautogui
 from threading import Thread
 
-
 hd1080p = "1080p"
 hd720p = "720p"
 hd480p = "480p"
@@ -40,7 +39,6 @@ def dlFunction(self):
             pyautogui.alert("Couldn't download | Try some other resolution ")
     t = Thread(target=dlFunction, args=(self))
     t.start()
-
 
 
 window = Tk()
