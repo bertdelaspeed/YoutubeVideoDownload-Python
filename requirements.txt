@@ -1,0 +1,4 @@
+pytube 
+pyautogui
+youtube_dl
+cx_Freeze 
